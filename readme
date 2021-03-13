@@ -1,0 +1,27 @@
+Q1 -> What is Maven?
+A  -> Maven is a Project Management tool
+	Most popular use of Maven is for build management and dependencies
+
+Q2 -> Explain directory structure of Maven app?
+A  -> src/main/java			Your Java source code
+	src/main/resources		Properties / config files used by your app
+	src/main/webapp			JSP files and web config files other web assets (images, css, js, etc)
+	src/test				Unit testing code and properties
+	target					Destination directory for compiled code. Automatically created by Maven
+
+Q3 -> What is POM File - pom.xml?
+A  -> Project Object Model file: POM file
+	Located in the root of your Maven project
+
+Q4 -> Explain POM File Structure?
+A  -> Project meta data: 
+		Project name, version etc
+		Output file type: JAR, WAR, ...
+	Dependencies:
+		List of projects we depend on Spring, Hibernate, etc ...
+	Plug ins:
+		Additional custom tasks to run:
+		generate JUnit test reports etc...
+
+
+
